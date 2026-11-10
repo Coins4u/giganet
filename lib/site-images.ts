@@ -1,11 +1,11 @@
-const SITE_ORIGIN = "https://gigaflixiptv.com";
+const SITE_ORIGIN = "https://gigaflixiptv.net";
 
 /**
  * Hero: public/img/{HERO_FILENAME}. When you replace the file in place, raise
  * HERO_IMAGE_CACHE_BUST so the URL changes and caches refresh.
  */
 const HERO_FILENAME = "hero_sports_center_clean_1769521080817.png";
-export const HERO_IMAGE_CACHE_BUST = "4";
+export const HERO_IMAGE_CACHE_BUST = "5";
 export const heroImageSrc = `/img/${HERO_FILENAME}?v=${HERO_IMAGE_CACHE_BUST}`;
 
 /**
@@ -25,7 +25,7 @@ export const LOGO_IMAGE_CACHE_BUST = "7";
 export const logoImageSrc = `/img/${LOGO_FILENAME}?v=${LOGO_IMAGE_CACHE_BUST}`;
 
 /** Sports section image: public/img/sports/football.png — bump when you replace the file in place. */
-export const SPORTS_FOOTBALL_CACHE_BUST = "1";
+export const SPORTS_FOOTBALL_CACHE_BUST = "3";
 export const sportsFootballImageSrc = `/img/sports/football.png?v=${SPORTS_FOOTBALL_CACHE_BUST}`;
 
 /** Payment methods strip: public/img/payments.png */
@@ -54,3 +54,7 @@ export const CHANNEL_CATEGORY_IMAGE_SIZES =
 
 /** Full URL for Open Graph, Twitter, JSON-LD (includes cache-bust query). */
 export const siteLogoAbsoluteUrl = `${SITE_ORIGIN}${logoImageSrc}`;
+
+/** White logo for the dark theme (generated from logo.png). */
+export const LOGO_LIGHT_CACHE_BUST = "1";
+export const logoLightSrc = `/img/logo-light.png?v=${LOGO_LIGHT_CACHE_BUST}`;

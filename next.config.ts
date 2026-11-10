@@ -16,6 +16,8 @@ const nextConfig: NextConfig = {
   },
   // Smaller, tree-shaken imports for icon-heavy and Mantine usage (less dev memory / compile work).
   experimental: {
+    // Branded 404 for unmatched URLs (site uses one root layout per language).
+    globalNotFound: true,
     optimizePackageImports: [
       "@mantine/core",
       "@mantine/hooks",

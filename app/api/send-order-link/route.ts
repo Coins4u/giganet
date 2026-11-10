@@ -26,7 +26,7 @@ type Body = {
 };
 
 function normalizeSiteOrigin(raw: string | undefined): string {
-  const fallback = "https://gigaflixiptv.com";
+  const fallback = "https://gigaflixiptv.net";
   const value = (raw || "").trim();
   if (!value) return fallback;
   if (/^https?:\/\//i.test(value)) return value.replace(/\/$/, "");
