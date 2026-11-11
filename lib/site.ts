@@ -4,7 +4,7 @@
 export const SITE_URL = "https://gigaflixiptv.net";
 export const BRAND = "GiGa FliX";
 export const BRAND_FULL = "GiGa FliX IPTV";
-export const SUPPORT_EMAIL = "support@gigaflixiptv.com";
+export const SUPPORT_EMAIL = "giga.flix.iptv@gmail.com ";
 export const WHATSAPP_URL = "https://wa.me/17624385265";
 
 export const LOCALES = ["en", "de", "fr", "it", "nl", "pt"] as const;
